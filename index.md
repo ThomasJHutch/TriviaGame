@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>80's Trivia Game</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">8 0 ' s__ T r i v i a </h1>
+        <div id="container">
+            <div id="start">Start Quiz!</div>
+            <div id="quiz" style="display: none">
+                <!-- timer -->
+                <div id="timer">
+                    <div id="counter"></div>
+                </div>
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
