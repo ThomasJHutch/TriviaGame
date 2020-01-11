@@ -1,0 +1,25 @@
+    @font-face {
+        font-family: myFirstFont;
+        src:url("../images/Lazer84.ttf");
+    }
+
+    h1 {font-family: myFirstFont;}
+
+    img {
+        width: 300px;
+
+    }
+
+    body {
+        background-image: url("../images/064 Red Salvation.png");
+    }
+
+    .jumbotron {
+
+        background-image: url("../images/076\ Premium\ Dark.png");
+        color: rgb(1, 255, 179);
+        width: 95%;
+        margin: auto;
+    }
+
+
